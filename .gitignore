@@ -1,0 +1,21 @@
+# Secrets
+.env
+.env.*
+!.env.example
+API.env
+API*.env
+*.pem
+*.key
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+# Model and generated data
+*.pkl
+ml_training_data.jsonl
+route_history.jsonl
+saved_routes/
+ml_station_pref.json
+.DS_Store
